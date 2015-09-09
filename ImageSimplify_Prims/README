@@ -1,0 +1,9 @@
+ImageSimplify_Prims
+
+This folder contains a program that implements Prim's Algorithm to create a set of connected components in an image specified by the user. The RGB colours of the components are then averaged to give a simplified image. An example is shown in doc/resources.
+
+Compilation is done through maven. 
+
+Usage: 
+mvn package
+java -jar target/ImageSimplify_Prims-1.0-jar-with-dependencies.jar input_filename.jpg output_filename.jpg num_components
